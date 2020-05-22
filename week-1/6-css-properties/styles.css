@@ -9,11 +9,11 @@
     font-size: 0.9rem;
 }
 
-.message message--unread {
+.message--unread {
     border-left: blue;
 }
 
-.message message--old {
+.message--old {
     opacity: 0.5;
 }
 
