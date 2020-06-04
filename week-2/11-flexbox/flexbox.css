@@ -1,6 +1,7 @@
 /* Add your own CSS code below */
 ul {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .countries--second {
@@ -10,5 +11,5 @@ ul {
 
 .countries--third {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
