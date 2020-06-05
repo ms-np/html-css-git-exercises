@@ -3,3 +3,44 @@
 }
 
 /* Add your own CSS code below */
+
+/* first exercise */
+
+.countries--first {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+/* second exercise */
+
+.countries--second {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* third exercise  */
+.countries--third {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+
+/* fourth exercise  */
+.countries--fourth {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.countries--fourth .country--ethiopia {
+  align-self: center;
+}
+.countries--fourth .country--laos {
+  align-self: center;
+}
