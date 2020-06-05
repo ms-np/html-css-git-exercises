@@ -29,7 +29,17 @@
                 </div>
               </td>
               <td>
-                Medium
+                <div>
+                  <form>
+                    <!-- screenreader -->
+                    <label for="sizes-select" class="screenreader">Choose a size</label>
+                    <select name="sizes" id="sizes-select">
+                      <option value="small">Small</option>
+                      <option class="selected" value="medium">Medium</option>
+                      <option value="large">Large</option>
+                    </select>
+                  </form>
+                </div>
               </td>
               <td>
                 1
