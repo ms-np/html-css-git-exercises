@@ -1,1 +1,45 @@
 /* Write your media queries and flexbox CSS below */
+
+/* task 1*/
+.site-header__nav {
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .site-header__nav {
+    flex-direction: column;
+  }
+}
+
+/* task 2*/
+
+/* 
+.site-header__checkout { 
+  min-width: 75px;
+  width: 5%;
+  height: 35px;
+}
+*/
+
+.site-header {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    flex-direction: column;
+  }
+}
+
+/* task 3*/
+@media (min-width: 992px) {
+  .site-header {
+    justify-content: space-between;
+  }
+}
+
+.site-header__checkout {
+  min-width: 75px;
+  width: 5%;
+  height: 35px;
+}
