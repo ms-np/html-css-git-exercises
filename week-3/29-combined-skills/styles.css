@@ -1,1 +1,73 @@
 /* Add your own CSS code below */
+
+/* exercise 1 */
+.love-color {
+  color: #c85308;
+}
+
+/* exercise 3 */
+@media (min-width: 992px) {
+  .hero__title {
+    display: flexbox;
+    flex-direction: column;
+    width: 470px;
+    align-items: center;
+  }
+}
+
+/* exercise 4 */
+
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*
+.main-nav li {
+  display: inline;
+} */
+
+/* exercise 5 */
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* exercise 6 */
+@media (min-width: 767px) {
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .view-list__item {
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+  }
+  .views__all {
+    float: right;
+  }
+}
+
+/*the rule above doesn't right-align the item. neither doest this rule
+
+.views div:nth-child(2) {
+    flex: 1;
+  } */
+
+/* exercise 11*/
+.main-article {
+  max-width: 50em;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-article p {
+  line-height: 1.5em;
+}
